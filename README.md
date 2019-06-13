@@ -1,5 +1,5 @@
-#gSSH
-Group SSH / Multi-session / Multi-window input
+# gSSH
+## Group SSH / Multi-session / Multi-window input
 
 Simple AutoHotkey script to enable sending input to multiple putty window simultaneously.
 
