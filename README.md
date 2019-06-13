@@ -14,7 +14,7 @@ Simple AutoHotkey script to enable sending input to multiple putty window simult
 - Auto 'Find' and 'Tile' on startup
 - Removed 'Find' background task because it was causing input issues with more than 10 session (now has to be done manually; with 'Locate')
 - Refocus on main window after 'Locate'
-- Input is now taken from any element (NOT RECOMMENDED)
+- Input is now taken from any element *(NOT RECOMMENDED)*
 - Auto borderless if possible (Only with CMD or PowerShell)
 - Removed minimize button
 - Startup on the lower right corner of the screen (above taskbar (50px))
