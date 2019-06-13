@@ -29,4 +29,4 @@ Simple AutoHotkey script to enable sending input to multiple putty windows simul
 
 ### License
 * Free as in free coffee and free as in free speech
-* **Use at your own risk**
+* *Use at your own risk*
