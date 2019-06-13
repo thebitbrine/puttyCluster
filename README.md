@@ -1,6 +1,11 @@
 # gSSH - Group SSH / Multi-session / Multi-window input
 
 Simple AutoHotkey script to enable sending input to multiple putty windows simultaneously.
+### Screenshots:
+
+![gSSH in use](https://github.com/thebitbrine/puttyCluster/raw/master/gSSH.InUse.png)
+
+![UI](https://github.com/thebitbrine/puttyCluster/raw/master/gSSH.png)
 
 ### Changes:
 - Minimalistic UI
@@ -27,6 +32,6 @@ Simple AutoHotkey script to enable sending input to multiple putty windows simul
 - It might lose control of PuTTY windows in some rare cases
 
 
-### License
+### License:
 * Free as in free coffee and free as in free speech
 * *Use at your own risk*
