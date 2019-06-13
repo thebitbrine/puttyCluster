@@ -27,6 +27,6 @@ Simple AutoHotkey script to enable sending input to multiple putty windows simul
 - It might lose control of PuTTY windows in some rare cases
 
 
-### license
-* free as in free coffee and free as in free speech
-* use at your own risk
+### License
+* Free as in free coffee and free as in free speech
+* **Use at your own risk**
