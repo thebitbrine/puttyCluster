@@ -71,7 +71,6 @@ Tile:
 		{
 		this_id := id%A_Index%		
 			if( this_id > 0){
-					WinSet, Style, -0xC40000, ahk_id %this_id% 
 					WinMove, ahk_id %this_id%,, x,y,width,height
 					x:=x+width
 					if( (x+width) > A_ScreenWidth){
@@ -90,7 +89,6 @@ Cascade:
 		{
 		this_id := id%A_Index%		
 			if( this_id > 0){
-					WinSet, Style, -0xC00000, ahk_id %this_id% 
 					WinMove, ahk_id %this_id%,, x,y,width,height				
 					x:=x+xstep
 					y:=y+ystep
@@ -106,7 +104,13 @@ GoClean:
 			this_id := id%A_Index%		
 			if( this_id >0 ){
 				WinActivate, ahk_id %this_id%
-				SendInput, clear{enter}
+				SendInput, c
+				SendInput, l
+				SendInput, e
+				SendInput, a
+				SendInput, r
+				SendInput, {enter}
+				
 			}
 		}
 return 
